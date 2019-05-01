@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.24)  2 MAY 2019 01:36
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.4.24)  2 MAY 2019 01:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size8.clo
-File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
@@ -831,7 +831,7 @@ LaTeX Info: Redefining \nameref on input line 29.
 * \marginparwidth=65.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -936,21 +936,21 @@ File: icons8-twitter-480.png Graphic file (type bmp)
 File: icons8-twitter-480.png Graphic file (type bmp)
 <icons8-twitter-480.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--193
+Underfull \hbox (badness 10000) in paragraph at lines 31--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--193
+Underfull \hbox (badness 10000) in paragraph at lines 31--192
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
@@ -958,19 +958,19 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 194.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 20315 strings out of 494945
- 381166 string characters out of 6177497
- 478571 words of memory out of 5000000
- 24001 multiletter control sequences out of 15000+600000
- 538714 words of font info for 79 fonts, out of 8000000 for 9000
+ 20322 strings out of 494945
+ 381226 string characters out of 6177497
+ 479578 words of memory out of 5000000
+ 24004 multiletter control sequences out of 15000+600000
+ 539613 words of font info for 82 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,6n,65p,10410b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,6n,65p,10410b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (1 page).
