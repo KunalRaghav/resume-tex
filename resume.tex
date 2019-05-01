@@ -7,7 +7,7 @@
 \usepackage{hyperref}
 \usepackage{scalerel}
 \pagenumbering{gobble}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[left=1cm,right=1cm,top=1.5cm,bottom=1.5cm]{geometry}
 
 %====================FONTS========================
 \usepackage{fontspec}
@@ -33,8 +33,8 @@
 	\begin{Huge}
 		{
 		\color{resumeBlueLight}
-			\bfseries{KUNAL RAGHAV}
-		}\\					
+			\bfseries{KUNAL RAGHAV} 
+		}$|$ {\color{gray}Curriculum Vitae}\\					
 	\end{Huge}
 	\begin{flushleft}
 		A software engineer in the making. Particularly excels at native android app development, past
@@ -46,7 +46,7 @@
 	\includegraphics[width=\textwidth]{photo}
 \end{minipage}
 \\
-{\rule{\textwidth}{0.01pt}}
+{\color{gray}\rule{\textwidth}{0.5mm}}
 \\ 
 % contact
 \href{mailto:kraghav123@gmail.com}{\scalerel*{\includegraphics{icons8-gmail-480}}{/} kraghav123@gmail.com}  $\mid$  
@@ -55,34 +55,73 @@
 \href{https://www.linkedin.com/in/kunalraghav/}{\scalerel*{\includegraphics{icons8-linkedin-480}}{/}/kunalraghav}  $\mid$  
 \href{https://twitter.com/_Kunal_Raghav_/}{\scalerel*{\includegraphics{icons8-twitter-480}}{/} @\_Kunal\_Raghav\_}
 \\\\\\
-\begin{minipage}{0.27\textwidth}
+\begin{minipage}{0.28\textwidth}
+	{\color{resumeGreenSea}
+	\section*{%
+		\begin{Large}%
+		SKILLS
+		\end{Large}%
+		\\\rule[1mm]{\textwidth}{1mm}%
+	}
+	}
+	Android\hfill\begin{LARGE}{\color{lightgray}{\color{resumeBlueDark}$\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$} $\bullet$}\end{LARGE}
+	\vspace{0.1cm}\\
+	HTML5 CSS3 JS\hfill\begin{LARGE}{\color{lightgray}{\color{resumeBlueDark}$\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$} $\bullet$ $\bullet$}\end{LARGE}
+	\vspace{0.1cm}\\
+	Django\hfill\begin{LARGE}{\color{lightgray}{\color{resumeBlueDark}$\bullet$ $\bullet$ $\bullet$ $\bullet$} $\bullet$ $\bullet$ $\bullet$}\end{LARGE}
+	\vspace{0.1cm}\\
+	Python\hfill\begin{LARGE}{\color{lightgray}{\color{resumeBlueDark}$\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$} $\bullet$}\end{LARGE}	
+	\vspace{0.1cm}\\
+	Graphic Designing\hfill\begin{LARGE}{\color{lightgray}{\color{resumeBlueDark}$\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$} $\bullet$ $\bullet$}\end{LARGE}	
+	\vspace{0.5cm}	
+	
 	{\color{resumeGreenSea}
 	\section*{%
 		\begin{Large}%
 		WORKS ON
 		\end{Large}%
-		\\\rule[1mm]{3cm}{0.5mm}%
+		\\\rule[1mm]{\textwidth}{1mm}%
 	}
 	}
 	\begin{list}{{\color{resumeBlueLight}$\blacktriangleright$}}{}
 	\item ANDROID
 	\item GIT, GITHUB
 	\item DJANGO
-	\item HTML5
-	\item CSS3 
-	\item JAVASCRIPT
+	\item HTML5, CSS3,\\JAVASCRIPT
 	\item PYTHON3 
 	\item LINUX
 	\item BASH
 	\item JAVA
-	\item GIMP, INKSCAPE
+	\item C, C++
+	\item GIMP, INKSCAPE,\\PHOTOSHOP
 	\item PREMIERE PRO
-	\item PHOTOSHOP
+	\item \LaTeX
 	\end{list}
+	{\color{resumeGreenSea}
+	\section*{%
+		\begin{Large}%
+		EDUCATION
+		\end{Large}%
+		\\\rule[1mm]{\textwidth}{1mm}%
+	}
+	}
+		\begin{flushleft}
+		B.Tech. Computer Science\\%
+		{\color{resumeBlueDark}\textbf{\begin{small}Bharati Vidyapeeth's College Of Engineering\end{small}}}
+		\\\begin{small}{\color{gray}2017 - 2021}\\\end{small}
+		\end{flushleft}
+		{\color{resumeBlueLight}\rule{\textwidth}{0.5mm}}
+		\begin{flushleft}
+		High School\\
+		{\color{resumeBlueDark}\textbf{\begin{small}Mount Carmel School, Dwarka\end{small}}}
+		\\\begin{small}{\color{gray}2015 - 2017}\end{small}
+		\end{flushleft}
+	
 \end{minipage}
-\begin{minipage}{0.05\textwidth}
+\hfill
+\begin{minipage}{0.03\textwidth}
 	{\color{resumeBlueDark}
-	\rule{0.5mm}{10.5cm}%
+	\rule{0.5mm}{0.6\paperheight}%
 	}
 \end{minipage}
 \begin{minipage}{0.65\textwidth}
@@ -91,7 +130,7 @@
 		\begin{Large}%
 		PROJECTS
 		\end{Large}%
-		\\\rule[1mm]{5cm}{0.5mm}%
+		\\\rule[1mm]{\textwidth}{1mm}%
 	}
 	}
 	{\color{resumeGreenLight}\textbf{ANDROID}}
@@ -100,14 +139,14 @@
 		\item Developed a flickr app that searches public images available on flickr using its public API.
 		\begin{flushright}
 			\begin{small}
-				[ \url{https://github.com/KunalRaghav/Flickr_Android} ]
+				\texttt{[\url{https://github.com/KunalRaghav/Flickr_Android}]}
 			\end{small}
 		\end{flushright}
 		
 		\item Developed an RSS reader for apple feeds on android.
 		\begin{flushright}
 			\begin{small}
-				[ \url{https://github.com/KunalRaghav/RSSReader_apple_android} ]
+				\texttt{[\url{https://github.com/KunalRaghav/RSSReader_apple_android}]}
 			\end{small}
 		\end{flushright}
 		
@@ -115,15 +154,13 @@
 		demands set by their college/institution with ease.
 		\begin{flushright}
 			\begin{small}
-				\texttt{[ \url{https://github.com/KunalRaghav/Tardy} ]}
+				\texttt{[\url{https://github.com/KunalRaghav/Tardy}]}
 			\end{small}
 		\end{flushright}
-		\item Developed an app for Medichange $\backsim$ a medicine exchange platform.
+		\item UpStack, a primitive android client for StackOverflow using their API.
 		\begin{flushright}
 			\begin{small}
-				\texttt{
-					[ source available on request ]
-				}
+				\texttt{[\url{https://github.com/KunalRaghav/UpStack}]}
 			\end{small}
 		\end{flushright}
 	\end{list}
@@ -132,23 +169,26 @@
 		\item Programmed a quiz application using Tkinter and python3.
 		\begin{flushright}
 			\begin{small}
-				[ \url{https://github.com/KunalRaghav/Python-Quiz} ]
+				\texttt{[\url{https://github.com/KunalRaghav/Python-Quiz}]}
 			\end{small}
 		\end{flushright}
 		\item Implemented a very basic backend for an E-Learning platform $\backsim$ Ludescite.
 		\begin{flushright}
 			\begin{small}
-				[ \url{https://github.com/KunalRaghav/CodeHackers} ]
+				\texttt{[\url{https://github.com/KunalRaghav/CodeHackers}]}
 			\end{small}
 		\end{flushright}
 	\end{list}
+	{\color{resumeGreenSea}
+		\section*{%
+			\begin{Large}%
+			ACHIEVEMENTS
+			\end{Large}%
+			\\\rule[1mm]{\textwidth}{1mm}%
+		}
+	}
+	{\small\textbullet}
+	
 \end{minipage}
-{\color{resumeGreenSea}
-	\section*{%
-		\begin{Large}%
-		ACHIEVEMENTS
-		\end{Large}%
-		\\\rule[1mm]{5cm}{0.5mm}%
-	}
-	}
+
 \end{document}
