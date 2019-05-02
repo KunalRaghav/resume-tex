@@ -25,9 +25,14 @@
 \definecolor{resumeGreenSea}{HTML}{14d2bb}
 \definecolor{resumeGreenLight}{HTML}{0acc61}
 %==================================================
-
+%============HEADER/FOOTER=====================
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{alim}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}\fancyfoot[R]{Last Updated on May 2, 2019}}
+%=========================================
 \begin{document}
-
+\thispagestyle{alim}
+\rfoot{Last updated May 2, 2019}
 \noindent
 \begin{minipage}{0.6\textwidth}
 	\begin{Huge}
@@ -107,20 +112,52 @@
 		\begin{flushleft}
 		B.Tech. Computer Science\\%
 		{\color{resumeBlueDark}\textbf{\begin{small}Bharati Vidyapeeth's College Of Engineering\end{small}}}
-		\\\begin{small}{\color{gray}2017 - 2021}\\\end{small}
+		\\\begin{small}%
+		{\color{gray}2017 - 2021 \emph{(Expected)}}
+		\hfill
+		{\color{resumeGreenLight}\textbf{CGPA 8.12}}
+		\end{small}
 		\end{flushleft}
 		{\color{resumeBlueLight}\rule{\textwidth}{0.5mm}}
 		\begin{flushleft}
-		High School\\
+		High School \MakeUppercase{{\romannumeral 12}} CBSE\\
 		{\color{resumeBlueDark}\textbf{\begin{small}Mount Carmel School, Dwarka\end{small}}}
-		\\\begin{small}{\color{gray}2015 - 2017}\end{small}
+		\\\begin{small}%
+		{\color{gray}2015 - 2017}
+		\hfill
+		{\color{resumeGreenLight}\textbf{85\%}}
+		\end{small}
 		\end{flushleft}
+		{\color{resumeBlueLight}\rule{\textwidth}{0.5mm}}
+		\begin{flushleft}
+		High School \MakeUppercase{{\romannumeral 10}} CBSE\\
+		{\color{resumeBlueDark}\textbf{\begin{small}Mount Carmel School, Dwarka\end{small}}}
+		\\\begin{small}%
+		{\color{gray}2015 - 2017}
+		\hfill
+		{\color{resumeGreenLight}\textbf{CGPA 10}}		
+		\end{small}
+		\end{flushleft}
+	{\color{resumeGreenSea}
+	\section*{%
+		\begin{Large}%
+		VOLUNTEERING
+		\end{Large}%
+		\\\rule[1mm]{\textwidth}{1mm}%
+	}
+	}
+	Technical Executive \\
+	\begin{small}
+	{\color{resumeBlueDark}\textbf{Developer Student Clubs, BVCOE}}\hfill%
+	{\color{resumeGreenLight}\textbf{March 2019}}
+	\end{small}
+	\\\vspace{0.1mm}\\
 	
 \end{minipage}
 \hfill
 \begin{minipage}{0.03\textwidth}
 	{\color{resumeBlueDark}
-	\rule{0.5mm}{0.6\paperheight}%
+	\rule{0.5mm}{0.73\paperheight}%
 	}
 \end{minipage}
 \begin{minipage}{0.65\textwidth}
@@ -135,59 +172,113 @@
 	{\color{resumeGreenLight}\textbf{ANDROID}}
 	\\
 	\begin{list}{{\color{resumeBlueLight}$\bullet\blacktriangleright$}}{}
-		\item Developed a flickr app that searches public images available on flickr using its public API.
-		\begin{flushright}
-			\begin{small}
-				\texttt{[\url{https://github.com/KunalRaghav/Flickr_Android}]}
-			\end{small}
-		\end{flushright}
+		\item {\color{resumeBlueDark}\textbf{UpStack}}\hfill 
+			\begin{tiny}
+				{\color{gray}
+				\textbf{\texttt{[\url{https://github.com/KunalRaghav/UpStack}]}}
+				}
+			\end{tiny} \\ 
+		A primitive android client for StackOverflow using their API.%
 		
-		\item Developed an RSS reader for apple feeds on android.
-		\begin{flushright}
-			\begin{small}
-				\texttt{[\url{https://github.com/KunalRaghav/RSSReader_apple_android}]}
-			\end{small}
-		\end{flushright}
-		
-		\item Tardy, a complete attendance management system for students to meet the minimum 
+		\item {\color{resumeBlueDark}\textbf{Tardy}}\hfill
+			\begin{tiny}
+				{\color{gray}
+				\textbf{\texttt{[\url{https://github.com/KunalRaghav/Tardy}]}}
+				}
+			\end{tiny}\\
+		A complete attendance management system for students to meet the minimum 
 		demands set by their college/institution with ease.
-		\begin{flushright}
-			\begin{small}
-				\texttt{[\url{https://github.com/KunalRaghav/Tardy}]}
-			\end{small}
-		\end{flushright}
-		\item UpStack, a primitive android client for StackOverflow using their API.
-		\begin{flushright}
-			\begin{small}
-				\texttt{[\url{https://github.com/KunalRaghav/UpStack}]}
-			\end{small}
-		\end{flushright}
+		\item {\color{resumeBlueDark}\textbf{Flickr Android}}\hfill 
+			\begin{tiny}
+				{\color{gray}
+				\textbf{\texttt{[\url{https://github.com/KunalRaghav/Flickr_Android}]}}
+				}
+			\end{tiny} \\ 
+		Developed a flickr app that searches public images available on flickr using its public API.
+		\item {\color{resumeBlueDark}\textbf{Apple RSS}}\hfill 
+			\begin{tiny}
+				{\color{gray}
+				\textbf{\texttt{[\url{https://github.com/KunalRaghav/RSSReader_apple_android}]}}
+				}
+			\end{tiny} \\ 
+		Developed an RSS reader for apple feeds on android.
 	\end{list}
 	{\color{resumeGreenLight}\textbf{PYTHON \& DJANGO}}
 	\begin{list}{{\color{resumeBlueLight}$\bullet\blacktriangleright$}}{}
-		\item Programmed a quiz application using Tkinter and python3.
-		\begin{flushright}
-			\begin{small}
-				\texttt{[\url{https://github.com/KunalRaghav/Python-Quiz}]}
-			\end{small}
-		\end{flushright}
-		\item Implemented a very basic backend for an E-Learning platform $\backsim$ Ludescite.
-		\begin{flushright}
-			\begin{small}
-				\texttt{[\url{https://github.com/KunalRaghav/CodeHackers}]}
-			\end{small}
-		\end{flushright}
+		\item {\color{resumeBlueDark}\textbf{Ludescite}}\hfill 
+			\begin{tiny}
+				{\color{gray}
+				\textbf{\texttt{[\url{https://github.com/KunalRaghav/CodeHackers}]}}
+				}
+			\end{tiny} \\ 
+		Implemented a very basic backend for an E-Learning platform $\backsim$ Ludescite.
+		\item {\color{resumeBlueDark}\textbf{Python Quiz}}\hfill 
+			\begin{tiny}
+				{\color{gray}
+				\textbf{\texttt{[\url{https://github.com/KunalRaghav/Python-Quiz}]}}
+				}
+			\end{tiny} \\ 
+		Programmed a quiz application using Tkinter and python3.
 	\end{list}
 	{\color{resumeGreenSea}
 		\section*{%
 			\begin{Large}%
-			ACHIEVEMENTS
+			EXPERIENCE \& ACHIEVEMENTS
 			\end{Large}%
 			\\\rule[1mm]{\textwidth}{1mm}%
 		}
 	}
-	{\small\textbullet}
-	
+	2nd Runner Up\\
+	\begin{small}
+	{\color{resumeBlueDark}\textbf{HackNSUT}}\hfill%
+	{\color{gray}\textbf{March 2019}}
+	\end{small}
+	\\\vspace{0.1mm}\\
+	Finalist\\
+	\begin{small}
+	{\color{resumeBlueDark}\textbf{Smart India Hackathon 2019 Software Edition}}\hfill%
+	{\color{gray}\textbf{March 2019}}
+	\end{small}
+	\\\vspace{0.1mm}\\
+	Technical Head\\
+	\begin{small}
+	{\color{resumeBlueDark}\textbf{Hack@BVP 2.0}}\hfill%
+	{\color{gray}\textbf{September 2018}}
+	\end{small}
+	\\\vspace{0.1mm}\\
+	Subject Topper Computer Science\hfill{\color{resumeGreenLight}\textbf{97\%}}\\
+	\begin{small}
+	{\color{resumeBlueDark}\textbf{Mount Carmel School, Dwarka}}\hfill%
+	{\color{gray}\textbf{CBSE 2017}}
+	\end{small}\\
+	{\color{resumeGreenSea}
+		\section*{%
+			\begin{Large}%
+			 CERTIFICATIONS \& TRAININGS
+			\end{Large}%
+			\\\rule[1mm]{\textwidth}{1mm}%
+		}
+	}
+	\href{https://www.coursera.org/account/accomplishments/certificate/G743BDRU3SEZ}{Google Cloud Platform Big Data and Machine Learning Fundamentals}\\
+	\begin{small}
+	{\color{resumeBlueDark}\textbf{COURSERA}}\hfill {\color{resumeGreenLight}\textbf{March 23, 2019}}%
+	\\%
+	{\color{gray}
+	\url{https://www.coursera.org/account/accomplishments/certificate/G743BDRU3SEZ}
+	}
+	\end{small}
+	\vspace{0.1cm}\\
+	{\color{resumeBlueLight}\rule{\textwidth}{0.5mm}}
+	\vspace{0.1cm}\\
+	\href{https://www.coursera.org/account/accomplishments/certificate/49ZCMPGTSVS7}{Google Cloud Platform Fundamentals: Core Infrastructure}\\
+	\begin{small}
+	{\color{resumeBlueDark}\textbf{COURSERA}}\hfill {\color{resumeGreenLight}\textbf{March 20, 2019}}%
+	\\%
+	{\color{gray}
+	\url{https://www.coursera.org/account/accomplishments/certificate/49ZCMPGTSVS7}
+	}
+	\end{small}
+	\vspace{3.8cm}
 \end{minipage}
 
 \end{document}
