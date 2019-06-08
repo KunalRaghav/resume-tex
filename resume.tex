@@ -1,4 +1,4 @@
-\documentclass[8pt,a4paper]{extarticle}
+\documentclass[10pt,a4paper]{extarticle}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -25,22 +25,60 @@
 \definecolor{resumeGreenSea}{HTML}{14d2bb}
 \definecolor{resumeGreenLight}{HTML}{0acc61}
 %==================================================
-%============HEADER/FOOTER=====================
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancypagestyle{alim}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}\fancyfoot[R]{Last Updated on May 2, 2019}}
-%=========================================
+%===================Graphics======================
+
+%-----------------Knows_Item_Box---------------------
+\usepackage{tikz}
+\tikzstyle{mybox} = [draw=white , fill=resumeBlueLight, ultra thick, rectangle, rounded corners, inner sep=5pt]
+\newcommand{\myKnowsBox}[1]{
+	\begin{tikzpicture}
+		\node [mybox] (box){%
+		\color{white}{$\bullet$  \textsc{\MakeLowercase{#1}}  $\bullet$}};
+	\end{tikzpicture}
+	}
+%=================================================
+
+%============CUSTOM-COMMANDS=================
+
+%------------MySectionTitle------------
+\newcommand{\mySectionTitle}[1]{{\color{resumeGreenSea}
+	\section*{%
+		\begin{large}%
+		#1
+		\end{large}%
+		\\\rule[1mm]{\textwidth}{1mm}%
+	}
+	}
+}
+
+%-------------Project Item-----------------
+\newcommand{\myProjectItem}[2]{\item {\color{resumeBlueDark}\textbf{#1}}\\#2}
+
+%------------------------------------------
+
+%------------Volunteering/Cerificate Item--------------
+\newcommand{\myVolunCertiItem}[3]{
+	\begin{flushleft}
+	#1\\
+	\begin{small}
+	{\color{resumeBlueDark}\textbf{#2}}\hfill%
+	{\color{resumeGreenLight}\textbf{#3}}
+	\end{small}
+\end{flushleft}
+}
+%-------------------------------------------
+
+
+%============================================
 \begin{document}
-\thispagestyle{alim}
-\rfoot{Last updated May 2, 2019}
 \noindent
 \begin{minipage}{0.6\textwidth}
-	\begin{Huge}
+	\begin{LARGE}
 		{
 		\color{resumeBlueLight}
 			\bfseries{KUNAL RAGHAV} 
 		}$|$ {\color{gray}Curriculum Vitae}\\					
-	\end{Huge}
+	\end{LARGE}
 	\begin{flushleft}
 		A software engineer in the making. Particularly excels at native android app development, past
 		experiences in Django, Front-End Development and python-fu.
@@ -60,18 +98,9 @@
 \href{https://www.linkedin.com/in/kunalraghav/}{\scalerel*{\includegraphics{icons8-linkedin-480}}{/}/kunalraghav}  $\mid$  
 \href{https://twitter.com/_Kunal_Raghav_/}{\scalerel*{\includegraphics{icons8-twitter-480}}{/} @\_Kunal\_Raghav\_}
 \\\\\\
-\begin{minipage}{0.28\textwidth}
-	{\color{resumeGreenSea}
-	\section*{%
-		\begin{Large}%
-		SKILLS
-		\end{Large}%
-		\\\rule[1mm]{\textwidth}{1mm}%
-	}
-	}
+\begin{minipage}{0.4\textwidth}
+	\mySectionTitle{SKILLS}
 	Android\hfill\begin{LARGE}{\color{lightgray}{\color{resumeBlueDark}$\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$} $\bullet$}\end{LARGE}
-	\vspace{0.1cm}\\
-	HTML5 CSS3 JS\hfill\begin{LARGE}{\color{lightgray}{\color{resumeBlueDark}$\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$} $\bullet$ $\bullet$}\end{LARGE}
 	\vspace{0.1cm}\\
 	Django\hfill\begin{LARGE}{\color{lightgray}{\color{resumeBlueDark}$\bullet$ $\bullet$ $\bullet$ $\bullet$} $\bullet$ $\bullet$ $\bullet$}\end{LARGE}
 	\vspace{0.1cm}\\
@@ -79,36 +108,33 @@
 	\vspace{0.1cm}\\
 	Graphic Designing\hfill\begin{LARGE}{\color{lightgray}{\color{resumeBlueDark}$\bullet$ $\bullet$ $\bullet$ $\bullet$ $\bullet$} $\bullet$ $\bullet$}\end{LARGE}	
 	\vspace{0.5cm}	
+
+
+
+	\mySectionTitle{WORKS ON}
 	
-	{\color{resumeGreenSea}
-	\section*{%
-		\begin{Large}%
-		WORKS ON
-		\end{Large}%
-		\\\rule[1mm]{\textwidth}{1mm}%
-	}
-	}
-	\begin{list}{{\color{resumeBlueLight}$\blacktriangleright$}}{}
-	\item Android
-	\item Git, Github
-	\item Django
-	\item HTML5, CSS3,\\Javascript
-	\item Python3 
-	\item Linux, Bash
-	\item Java
-	\item C, C++
-	\item Gimp, Inkscape,\\Photoshop CC
-	\item Premiere Pro
-	\item \LaTeX
-	\end{list}
-	{\color{resumeGreenSea}
-	\section*{%
-		\begin{Large}%
-		EDUCATION
-		\end{Large}%
-		\\\rule[1mm]{\textwidth}{1mm}%
-	}
-	}
+	\myKnowsBox{Android}
+	\myKnowsBox{Java}
+	\myKnowsBox{Kotlin}
+	\myKnowsBox{Git}
+	\myKnowsBox{Github}
+	\myKnowsBox{Django}
+	\myKnowsBox{HTML5}
+	\myKnowsBox{CSS3} 
+	\myKnowsBox{Javascript}
+	\myKnowsBox{Python3}
+	\myKnowsBox{Linux}
+	\myKnowsBox{Bash}
+	\myKnowsBox{C}
+	\myKnowsBox{C++}
+	\myKnowsBox{Gimp}
+	\myKnowsBox{Inkscape}
+	\myKnowsBox{Photoshop CC}
+	\myKnowsBox{Premiere Pro}
+	\myKnowsBox{\LaTeX}
+		\\\vspace{0.1mm}\\
+
+		\mySectionTitle{EDUCATION}
 		\begin{flushleft}
 		B.Tech. Computer Science\\%
 		{\color{resumeBlueDark}\textbf{\begin{small}Bharati Vidyapeeth's College Of Engineering\end{small}}}
@@ -138,96 +164,26 @@
 		{\color{resumeGreenLight}\textbf{CGPA 10}}		
 		\end{small}
 		\end{flushleft}
-	{\color{resumeGreenSea}
-	\section*{%
-		\begin{Large}%
-		VOLUNTEERING
-		\end{Large}%
-		\\\rule[1mm]{\textwidth}{1mm}%
-	}
-	}
-	Technical Executive \\
-	\begin{small}
-	{\color{resumeBlueDark}\textbf{Developer Student Clubs, BVCOE}}\hfill%
-	{\color{resumeGreenLight}\textbf{March 2019}}
-	\end{small}
-	\\\vspace{0.1mm}\\
 	
 \end{minipage}
 \hfill
-\begin{minipage}{0.03\textwidth}
-	{\color{resumeBlueDark}
-	\rule{0.5mm}{0.73\paperheight}%
-	}
-\end{minipage}
-\begin{minipage}{0.65\textwidth}
-	{\color{resumeGreenSea}
-	\section*{%
-		\begin{Large}%
-		PROJECTS
-		\end{Large}%
-		\\\rule[1mm]{\textwidth}{1mm}%
-	}
-	}
+\begin{minipage}{0.58\textwidth}
+	\mySectionTitle{PROJECTS}
 	{\color{resumeGreenLight}\textbf{ANDROID}}
 	\\
 	\begin{list}{{\color{resumeBlueLight}$\bullet\blacktriangleright$}}{}
-		\item {\color{resumeBlueDark}\textbf{UpStack}}\hfill 
-			\begin{tiny}
-				{\color{gray}
-				\textbf{\texttt{[\url{https://github.com/KunalRaghav/UpStack}]}}
-				}
-			\end{tiny} \\ 
-		A primitive android client for StackOverflow using their API.%
-		
-		\item {\color{resumeBlueDark}\textbf{Tardy}}\hfill
-			\begin{tiny}
-				{\color{gray}
-				\textbf{\texttt{[\url{https://github.com/KunalRaghav/Tardy}]}}
-				}
-			\end{tiny}\\
-		A complete attendance management system for students to meet the minimum 
-		demands set by their college/institution with ease.
-		\item {\color{resumeBlueDark}\textbf{Flickr Android}}\hfill 
-			\begin{tiny}
-				{\color{gray}
-				\textbf{\texttt{[\url{https://github.com/KunalRaghav/Flickr_Android}]}}
-				}
-			\end{tiny} \\ 
-		Developed a flickr app that searches public images available on flickr using its public API.
-		\item {\color{resumeBlueDark}\textbf{Apple RSS}}\hfill 
-			\begin{tiny}
-				{\color{gray}
-				\textbf{\texttt{[\url{https://github.com/KunalRaghav/RSSReader_apple_android}]}}
-				}
-			\end{tiny} \\ 
-		Developed an RSS reader for apple feeds on android.
+		\myProjectItem{UpStack}{A primitive android client for StackOverflow using their API.}
+		\myProjectItem{Tardy}{A complete attendance management system for students to meet the minimum demands set by their college/institution with ease.}		
+		\myProjectItem{Flickr Android}{Developed a flickr app that searches public images available on flickr using its public API.}
+		\myProjectItem{Apple RSS}{Developed an RSS reader for apple feeds on android.}
 	\end{list}
+	\vspace{0.5mm}
 	{\color{resumeGreenLight}\textbf{PYTHON \& DJANGO}}
 	\begin{list}{{\color{resumeBlueLight}$\bullet\blacktriangleright$}}{}
-		\item {\color{resumeBlueDark}\textbf{Ludescite}}\hfill 
-			\begin{tiny}
-				{\color{gray}
-				\textbf{\texttt{[\url{https://github.com/KunalRaghav/CodeHackers}]}}
-				}
-			\end{tiny} \\ 
-		Implemented a very basic backend for an E-Learning platform $\backsim$ Ludescite.
-		\item {\color{resumeBlueDark}\textbf{Python Quiz}}\hfill 
-			\begin{tiny}
-				{\color{gray}
-				\textbf{\texttt{[\url{https://github.com/KunalRaghav/Python-Quiz}]}}
-				}
-			\end{tiny} \\ 
-		Programmed a quiz application using Tkinter and python3.
+		\myProjectItem{Ludescite}{Implemented a very basic backend for an E-Learning platform $\backsim$ Ludescite.}
+		\myProjectItem{Python Quiz}{Programmed a quiz application using Tkinter and python3.}
 	\end{list}
-	{\color{resumeGreenSea}
-		\section*{%
-			\begin{Large}%
-			EXPERIENCE \& ACHIEVEMENTS
-			\end{Large}%
-			\\\rule[1mm]{\textwidth}{1mm}%
-		}
-	}
+	\mySectionTitle{EXPERIENCE \& ACHIEVEMENTS}
 	2nd Runner Up\\
 	\begin{small}
 	{\color{resumeBlueDark}\textbf{HackNSUT}}\hfill%
@@ -251,34 +207,27 @@
 	{\color{resumeBlueDark}\textbf{Mount Carmel School, Dwarka}}\hfill%
 	{\color{gray}\textbf{CBSE 2017}}
 	\end{small}\\
-	{\color{resumeGreenSea}
-		\section*{%
-			\begin{Large}%
-			 CERTIFICATIONS \& TRAININGS
-			\end{Large}%
-			\\\rule[1mm]{\textwidth}{1mm}%
-		}
-	}
-	\href{https://www.coursera.org/account/accomplishments/certificate/G743BDRU3SEZ}{Google Cloud Platform Big Data and Machine Learning Fundamentals}\\
-	\begin{small}
-	{\color{resumeBlueDark}\textbf{COURSERA}}\hfill {\color{resumeGreenLight}\textbf{March 23, 2019}}%
-	\\%
-	{\color{gray}
-	\url{https://www.coursera.org/account/accomplishments/certificate/G743BDRU3SEZ}
-	}
-	\end{small}
-	\vspace{0.1cm}\\
+	\pagebreak
+	
+\end{minipage}%
+
+\pagebreak
+\noindent%
+\begin{minipage}{0.4\textwidth}
+	\mySectionTitle{VOLUNTEERING}%
+\myVolunCertiItem{Android Dev Head}{Developer Student Clubs, BVCOE}{May 2019}
+\myVolunCertiItem{Technical Executive}{Developer Student Clubs, BVCOE}{May 2018}
+\myVolunCertiItem{Volunteer}{National Service Scheme, BVCOE}{May 2018}
+\end{minipage}
+\hfill
+\begin{minipage}{0.58\textwidth}
+\mySectionTitle{CERTIFICATIONS \& TRAININGS}
+	\myVolunCertiItem{Google Cloud Platform Big Data and Machine Learning Fundamentals}{COURSERA}{March 23, 2019}
+	\vspace{0.1cm}
 	{\color{resumeBlueLight}\rule{\textwidth}{0.5mm}}
-	\vspace{0.1cm}\\
-	\href{https://www.coursera.org/account/accomplishments/certificate/49ZCMPGTSVS7}{Google Cloud Platform Fundamentals: Core Infrastructure}\\
-	\begin{small}
-	{\color{resumeBlueDark}\textbf{COURSERA}}\hfill {\color{resumeGreenLight}\textbf{March 20, 2019}}%
-	\\%
-	{\color{gray}
-	\url{https://www.coursera.org/account/accomplishments/certificate/49ZCMPGTSVS7}
-	}
-	\end{small}
-	\vspace{3.8cm}
+	\vspace{0.1cm}
+	\myVolunCertiItem{Google Cloud Platform Fundamentals: Core Infrastructure}{COURSERA}{MARCH 20, 2019}
+
 \end{minipage}
 
 \end{document}
