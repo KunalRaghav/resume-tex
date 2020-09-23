@@ -12,7 +12,7 @@
 }
 \usepackage{scalerel}
 \pagenumbering{gobble}
-\usepackage[left=1cm,right=1cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage[left=1cm,right=1cm,top=1.1cm,bottom=1.1cm]{geometry}
 
 %====================FONTS========================
 \usepackage{fontspec}
@@ -47,7 +47,9 @@
 \newcommand{\myExtrasBox}[1]{
 	\begin{tikzpicture}
 		\node [myExtraBox] (box){%
-		\color{resumeBlueDark}{\textsc{\MakeLowercase{#1}}}};
+		\color{resumeBlueDark}{\begin{footnotesize}
+		\MakeUppercase{#1}
+		\end{footnotesize}}};
 	\end{tikzpicture}
 	}
 %=================================================
@@ -89,7 +91,7 @@
 %------------------------------------------------
 %-------------Experience Item-------------------
 \newcommand{\myExperience}[5][ ]{
-	#2\hfill{\color{resumeGreenLight}\textbf{#1}}\\
+	\textbf{#2}\hfill{\color{resumeGreenLight}\textbf{#1}}\\
 	\begin{small}{
 		\color{resumeBlueDark}
 		\textbf{#3}
@@ -134,31 +136,32 @@
 %============================================
 \begin{document}
 \noindent
-	\begin{flushleft}
+	\begin{center}
 	\begin{LARGE}
 		{
 		\color{resumeBlueLight}
 			\bfseries{\scalerel*{\includegraphics{photo}}{K} KUNAL RAGHAV} 
 		}\\					
 	\end{LARGE}
-		\vspace{2mm}
-		A software engineer in the making. Particularly excels at native android app development and graphic designing, past
-		experiences in Django, Front-End Development and python-fu.
-		\vspace{-1mm}
+%		\vspace{2mm}
+%		A software engineer in the making. Particularly excels at native android app development and graphic designing, past
+%		experiences in Django, Front-End Development and python-fu.
+%		\vspace{-1mm}
 
 		% contact
-		\begin{flushleft}
+		\begin{center}
 		{\scalerel*{\includegraphics{phone}}{/} +91 9810390605}   \hspace{2mm}
 		\href{https://github.com/KunalRaghav}{\scalerel*{\includegraphics{icons8-github-96}}{/}/KunalRaghav}  \hspace{1mm}
-		\href{https://medium.com/@KunalRaghav}{\scalerel*{\includegraphics{medium}}{/} @KunalRaghav}  \hspace{1mm}
+		%\href{https://medium.com/@KunalRaghav}{\scalerel*{\includegraphics{medium}}{/} @KunalRaghav}  \hspace{1mm}
 		\href{https://www.linkedin.com/in/kunalraghav/}{\scalerel*{\includegraphics{icons8-linkedin-480}}{/}/kunalraghav}   \hspace{1mm}
-		\href{https://twitter.com/_Kunal_Raghav_/}{\scalerel*{\includegraphics{icons8-twitter-480}}{/} @\_Kunal\_Raghav\_} \\
-		\href{mailto:kraghav123@gmail.com}{\scalerel*{\includegraphics{icons8-gmail-480}}{/} \ kraghav123@gmail.com} 
+		%\href{https://twitter.com/_Kunal_Raghav_/}{\scalerel*{\includegraphics{icons8-twitter-480}}{/} @\_Kunal\_Raghav\_} \\
+		\href{mailto:kraghav123@gmail.com}{\scalerel*{\includegraphics{icons8-gmail-480}}{/} \ kraghav123@gmail.com} \hspace{1mm}
+		\href{https://kunalraghav.github.io/}{{\textbf{\color{resumeBlueLight}\fontAwesome poll}}  https://kunalraghav.github.io/} 
 		%\href{mailto:kunal.raghav1999@outlook.com}{\scalerel*{\includegraphics{icons-outlook}}{/} kunal.raghav1999@outlook.com}
-		\end{flushleft}
+		\end{center}
 
 		
-	\end{flushleft}
+	\end{center}
 	\hfill
 %	{\color{gray}\rule{\textwidth}{0.5mm}}
 
@@ -168,7 +171,7 @@
 \noindent
 \begin{minipage}{0.4\textwidth}
 	\mySectionTitle{{\fontAwesome graduation-cap }EDUCATION}
-		\myEducationItem{B.Tech. Computer Science}{Bharati Vidyapeeth's College Of Engineering}{2017 - 2021 \emph{(Expected)}}{CGPA 8.38}
+		\myEducationItem{B.Tech. Computer Science}{Bharati Vidyapeeth's College Of Engineering}{2017 - 2021 \emph{(Expected)}}{CGPA 8.48} 
 %		{\color{resumeBlueLight}\rule{\textwidth}{0.5mm}}
 %		\myEducationItem{High School \MakeUppercase{{\romannumeral 12}} CBSE}{Mount Carmel School, Dwarka}{2015 - 2017}{85\%}
 %		{\color{resumeBlueLight}\rule{\textwidth}{0.5mm}}
@@ -181,19 +184,18 @@
 	{ %
 	\vspace{-5mm}
 	\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
-	\item{Worked on \textbf{Amazon Web Services}}
+	\item{Worked on \textbf{Amazon Web Services}: Cognito, S3 Bucket and DynamoDB}
 	\item{Migrated codebase to the \textbf{Model View ViewModel} architecture}
-	\item{Increased responsiveness and perceived performance of the app}
+	\item{Increased responsiveness and perceived performance of the app due to MVVM refactor and RxJava2}
 	\end{list}
 	}
 	\myExperience[June 2019]{GruBox}{Android Developer Intern}{2 months}
 	{ %
-	\vspace{-5mm}
+	\vspace{-8mm}
 	\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
-	\item{Revamped the android app from ground up}
-	\item{Followed principles of \textbf{clean architecture}}
+	\item{Revamped the android app from ground up to follow principles of \textbf{clean architecture}}
 	\item{Used \textbf{architectural components} from Google}
-	\item{Worked on implementing most of the consumer facing UI}
+	\item{Worked on implementing most of the consumer facing UI following material design guidelines}
 	\end{list}
 	}
 		\vspace{-5mm}
@@ -209,34 +211,40 @@
 \myVolunCertiItem{Android Dev Head}{Developer Student Clubs, BVCOE}{May 2019}{
 	\vspace{-5mm}
 	\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
-	\item{Organised workshops on mobile technologies}
-	\item{Lead a team of android developers}
+	\item{Organised workshops on mobile technologies\\ (Kotlin, Flutter)}
+	\item{Led and mentored a team of passionate \\
+	android developers}
 	\end{list}
 }
 \myVolunCertiItem{Technical Head}{Hack@BVP 2.0}{Sept 2018}{
 	\vspace{-5mm}
 	\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
-	\item{Developed the main website for the competition}
+	\item{Developed the static landing website for the competition using Bootstrap 4.0, Html5, Css3}
+	\item{Managed and led the technical team working on the hackathon}
 	\end{list}
 }
 
-\vspace{-4mm}
+\vspace{-6mm}
 	\mySectionTitle{{\fontAwesome laptop-code }SKILLS}
 	
 	\myKnowsBox{Android}%
 	\myKnowsBox{Java}%
 	\myKnowsBox{Kotlin}%
+	\myKnowsBox{JavaScript}%
+	\myKnowsBox{ReactJS}%
+	\myKnowsBox{Express}%
+	\myKnowsBox{Node}%
 	\myKnowsBox{Git}%
 	\myKnowsBox{LaTeX}
-	\myKnowsBox{Gimp}%
-	\myKnowsBox{Inkscape}%
-	\myKnowsBox{Photoshop CC}%
+	\myKnowsBox{MongoDB}%
+	\myKnowsBox{MySQL}%
 	\myKnowsBox{Python}%
 	\myKnowsBox{Linux}%
 	\myKnowsBox{Bash}%
 	\myKnowsBox{Dart}%
 	\myKnowsBox{Django}%
 	\myKnowsBox{Flutter}%
+	\myKnowsBox{Sqlite}
 
 \end{minipage}
 \hfill
@@ -246,19 +254,27 @@
 
 	\mySectionTitle{{\fontAwesome project-diagram }PROJECTS}
 %	{\color{resumeGreenLight}{\fontAwesomeBrands android }\textbf{ANDROID}}\\
-	\begin{list}{{\color{resumeBlueLight}$\bullet\blacktriangleright$}}{}
-		\myProjectItem{OneSec}{
-		\vspace{-5mm}
-		\begin{list}{\color{resumeBlueLight}$\square$}{\leftmargin 3mm}
-		\item{Uses firebase realtime database location services and Google Maps API}
+	\begin{list}{{\color{resumeBlueLight}}}{\leftmargin 1mm}
+		\myProjectItem{OneSec  \begin{footnotesize}	 [Kotlin, RetroFit 2.0, Firebase, Maps]	\end{footnotesize} }{
+		\vspace{-6mm}
+		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
+		\item{Uses Firebase Realtime Database, location services and Google Maps API}
 		\item{Plot a citizen's location on a map and report crimes}
 		\item{Citizen can also see a live heatmap of the crimes reported in the region}
 		\end{list}
 		}
-		\myProjectItem{edAR}{
-		\vspace{-5mm}
-		\begin{list}{\color{resumeBlueLight}$\square$}{\leftmargin 3mm}
+		\myProjectItem{edAR \begin{footnotesize}	 [Kotlin, Retrofit 2.0, ARCore]	\end{footnotesize}}{
+		\vspace{-6mm}
+		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
 		\item{An app that uses ARCore to interact with 3D models of objects}
+		\item{Intended to help students visualize complex figures such as checmical bonds, body organs, etc. on their phone screens.}  			
+		\end{list}
+		}
+		\myProjectItem{Medichange  \begin{footnotesize}	 [Java, RetroFit 2.0, Maps]	\end{footnotesize} }{
+		\vspace{-6mm}
+		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
+		\item{Intended to procure unused medicines from chemists and households for use at NGOs}
+		\item{Plots nearby medicine deposit station on map and offers turn by turn navigation to the selected station}
 		\end{list}
 		}
 %		\myProjectItem{UpStack}{
@@ -267,63 +283,67 @@
 %		\item{A primitive android client for StackOverflow using their API}
 %		\end{list}
 %		}		
-		\myProjectItem{Tardy}{
-		\vspace{-5mm}
-		\begin{list}{\color{resumeBlueLight}$\square$}{\leftmargin 3mm}
-		\item{A complete attendance management system for students to meet the minimum demands set by their college/institution with ease}
+		\myProjectItem{Tardy \begin{footnotesize}	 [Java, SQLite]	\end{footnotesize}}{
+		\vspace{-6mm}
+		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
+		\item{A complete attendance tracking system for students to meet the minimum demands set by their college/institution.}
+		\item{Clearly shows the amount of classes needed to be taken and a clean timeline for every subject}
 		\end{list}
 		}		
-		\myProjectItem{Flickr Android}{
-		\vspace{-5mm}
-		\begin{list}{\color{resumeBlueLight}$\square$}{\leftmargin 3mm}
-		\item{Developed a flickr app that searches public images available on flickr using its public API}
+		\myProjectItem{Flickr Android \begin{footnotesize}	 [Java, XMLParsing]	\end{footnotesize}}{
+		\vspace{-6mm}
+		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
+		\item{Developed a Flickr app that searches public images available on Flickr using its public API}
 		\end{list}
 		}
-		\myProjectItem{Apple RSS}{
-		\vspace{-5mm}
-		\begin{list}{\color{resumeBlueLight}$\square$}{\leftmargin 3mm}
-		\item{Developed an RSS reader for apple feeds on android}
+		\myProjectItem{Apple RSS \begin{footnotesize}	 [Java, RSSFeeds]	\end{footnotesize}}{
+		\vspace{-6mm}
+		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
+		\item{Developed an RSS reader for Apple RSS feeds on android}
 		\end{list}
 		}
 				
 %	{\color{resumeGreenLight}{\fontAwesomeBrands python }\textbf{PYTHON \& DJANGO}}
 
-		\myProjectItem{Ludescite}{
-		\vspace{-5mm}
-		\begin{list}{\color{resumeBlueLight}$\square$}{\leftmargin 3mm}
-		\item{Implemented a very basic backend for an E-Learning platform $\backsim$ Ludescite}
-		\end{list}
-		}
-		\myProjectItem{Python Quiz}{
-		\vspace{-5mm}
-		\begin{list}{\color{resumeBlueLight}$\square$}{\leftmargin 3mm}
-		\item{Programmed a quiz application using Tkinter and python3}
-		\end{list}
-		}
+%		\myProjectItem{Ludescite \begin{footnotesize}	 [Python3, Django 2.0]	\end{footnotesize}}{
+%		\vspace{-6mm}
+%		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
+%		\item{Implemented a very rudimentary backend for an E-Learning platform Ludescite}
+%		\end{list}
+%		}
+%		\myProjectItem{Python Quiz \begin{footnotesize}	 [Python3, Tkinter]	\end{footnotesize}}{
+%		\vspace{-6mm}
+%		\begin{list}{\color{resumeBlueLight}$\circ$}{\leftmargin 3mm}
+%		\item{Programmed a MCQ quiz application using Tkinter and python3}
+%		\end{list}
+%		}
 	\end{list}
-	
+	\vspace{-6mm}
 \mySectionTitle{{\fontAwesome trophy }COMPETITIONS \& ACHIEVEMENTS}
 %		\myAchievement{2nd Runner Up}{HackNSUT}{March 2019}
 %		\\\vspace{0.1mm}\\
 %		\myAchievement[TOP 5]{Winner}{Internal Smart India Hackathon 2020}{February 2020}
 %		\\\vspace{0.1mm}\\
 		\myAchievement[TOP 4]{Finalist}{Smart India Hackathon 2019 Software Edition}{March 2019}
-		\\\vspace{0.1mm}\\
+		\\\vspace{0.01mm}\\
 		\myAchievement[TOP 20]{Hack-A-BIT}{BIT Mesra}{October 2018}
 		\\\vspace{0.1mm}\\
 %		\myAchievement[97\%]{Subject Topper Computer Science}{Mount Carmel School, Dwarka}{CBSE 2017}
 %		\\\vspace{0.1mm}\\
 		{
 			{\textsc{other hackathons}}:\\\\
-			\myExtrasBox{Hack20}			
+			\myExtrasBox{Hack20}
+			\myExtrasBox{SIH 2020 Int.}			
 			\myExtrasBox{HackNSUT}
 			\myExtrasBox{HackDelhi}
 			\myExtrasBox{HackIIITD}
 		}
-		\vspace{5mm}
+%		\vspace{1mm}
 	\mySectionTitle{{\fontAwesome certificate }CERTIFICATIONS}%
-		\myVolunCertiItem{GCP Big Data and Machine Learning Fundamentals}{COURSERA}{March 23, 2019}
-		\myVolunCertiItem{GCP Fundamentals: Core Infrastructure}{COURSERA}{March 20, 2019}
+		\myVolunCertiItem{\href{https://coursera.org/share/9b61f489a141917728e2c81ead664f12}{Server-side Development with NodeJS, Express and MongoDB}}{COURSERA}{September 13, 2020}
+		\myVolunCertiItem{\href{https://coursera.org/share/f8f66a0abd915179deee7cf6127516d9}{Front-End Web Development with React}}{COURSERA}{August 8, 2020}
+		\myVolunCertiItem{\href{https://coursera.org/share/7e3bfa77ffb87a672d512f70e924a5bc}{GCP Big Data and Machine Learning Fundamentals}}{COURSERA}{March 23, 2019}
+		\myVolunCertiItem{\href{https://coursera.org/share/2961892f8f1ec5a00e9dbd095115aa3f}{GCP Fundamentals: Core Infrastructure}}{COURSERA}{March 20, 2019}
 	
 \end{minipage}%
 
