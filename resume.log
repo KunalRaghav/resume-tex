@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7.26) (preloaded format=xelatex 2022.7.28)  11 NOV 2022 21:03
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7.26) (preloaded format=xelatex 2022.7.28)  26 JUL 2023 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -938,87 +938,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--171
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 199--199
-[]\TU/Roboto(0)/m/n/10 Wrote multiple consumer facing screens to
+Underfull \hbox (badness 6110) in paragraph at lines 203--203
+[]\TU/Roboto(0)/m/n/10 Wrote multiple consumer facing flows for
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 199--199
-[]\TU/Roboto(0)/m/n/10 Wrote an sdk to allow easy integration of
+Underfull \hbox (badness 6016) in paragraph at lines 203--203
+[]\TU/Roboto(0)/m/n/10 Wrote a small module to handle location
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 208--208
+Underfull \hbox (badness 2547) in paragraph at lines 203--203
+\TU/Roboto(0)/m/n/10 caching and updation for multiple flows in
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 203--203
+\TU/Roboto(0)/m/n/10 to unify the \TU/Roboto(0)/b/n/10 PIN \TU/Roboto(0)/m/n/10
+ entering experience across
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 212--212
 []\TU/Roboto(0)/m/n/10 Drove a major refactor of how the data is
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 208--208
+Underfull \hbox (badness 2503) in paragraph at lines 212--212
 \TU/Roboto(0)/m/n/10 handled in the project resulting in boosted
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 217--217
+Underfull \hbox (badness 5771) in paragraph at lines 221--221
 []\TU/Roboto(0)/m/n/10 Wrote unit tests using \TU/Roboto(0)/b/n/10 Mockito \TU/
 Roboto(0)/m/n/10 and used
  []
 
 
-Underfull \hbox (badness 7256) in paragraph at lines 217--217
+Underfull \hbox (badness 7256) in paragraph at lines 221--221
 \TU/Roboto(0)/b/n/10 Dagger2 \TU/Roboto(0)/m/n/10 for dependency injection, pla
 ying
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 \TU/Roboto(0)/m/n/10 a major role in setting up the testing
  []
 
 
-Underfull \hbox (badness 7379) in paragraph at lines 217--217
+Underfull \hbox (badness 7379) in paragraph at lines 221--221
 []\TU/Roboto(0)/m/n/10 Reduced RAM requirements and improved
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 228--228
+Underfull \hbox (badness 1005) in paragraph at lines 232--232
 \TU/Roboto(0)/m/n/10 mobile app solution for doctors to remotely
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 228--228
+Underfull \hbox (badness 2875) in paragraph at lines 232--232
 []\TU/Roboto(0)/m/n/10 Migrated the codebase to the \TU/Roboto(0)/b/n/10 Model 
 View
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 239--239
+Underfull \hbox (badness 3557) in paragraph at lines 243--243
 []\TU/Roboto(0)/m/n/10 Used latest \TU/Roboto(0)/b/n/10 architectural component
 s \TU/Roboto(0)/m/n/10 from
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 239--239
+Underfull \hbox (badness 8189) in paragraph at lines 243--243
 \TU/Roboto(0)/m/n/10 improving UX and increasing the average
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 250--269
-[][]  []  []  []
  []
 
 
 LaTeX Font Warning: Font shape `TU/FontAwesome5Brands(0)/b/n' undefined
 (Font)              using `TU/FontAwesome5Brands(0)/m/n' instead on input line 
-300.
+282.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--437
+Underfull \hbox (badness 10000) in paragraph at lines 405--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--437
+Underfull \hbox (badness 10000) in paragraph at lines 405--419
 
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 428--447
+[][]  []  []  []  []
  []
 
 [1
@@ -1031,12 +1042,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23429 strings out of 410653
- 473641 string characters out of 2820528
- 865429 words of memory out of 3000000
- 44085 multiletter control sequences out of 15000+600000
- 474793 words of font info for 97 fonts, out of 8000000 for 9000
+ 23426 strings out of 410653
+ 473550 string characters out of 2820528
+ 857464 words of memory out of 3000000
+ 44083 multiletter control sequences out of 15000+600000
+ 474785 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,7n,85p,523b,792s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,7n,85p,523b,787s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on resume.pdf (1 page).
