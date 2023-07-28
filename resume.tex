@@ -19,8 +19,8 @@
 \usepackage{amsfonts}
 \setmainfont{Roboto}
 \setmonofont{Fira Code}
-\newfontfamily\fontAwesome{Font Awesome 5 Free}
-\newfontfamily\fontAwesomeBrands{Font Awesome 5 Brands}
+\newfontfamily\fontAwesome{Font Awesome 6 Free}
+\newfontfamily\fontAwesomeBrands{Font Awesome 6 Brands}
 \usepackage{bold-extra}
 %=================================================
 
@@ -69,28 +69,25 @@
 %============CUSTOM-COMMANDS=================
 
 %------------MySectionTitle------------
-\newcommand{\mySectionTitle}[1]{{\color{resumeGreenSea}
+\newcommand{\mySectionTitle}[1]{{\color{resumeBlueLight}%
 			\section*{%
-			  %{\color{resumeBlueLight}\rule[0mm]{0.2mm}{3mm}}
 			  \begin{large}%
-				  #1
+				  #1%
 			  \end{large}%
-			 }
+            }
 		}
 }
 
 %-------------Project Item----------------------
-\newcommand{\myProjectItem}[2]{
-	\item {
-	            \color{resumeBlueDark}
-	            \textbf{#1}}\\#2
-}
-
+\newcommand{\myProjectItem}[2]{%
+	\item {%
+	            \color{resumeBlueDark}%
+	            \textbf{#1}}\\#2%
+}%
 %------------------------------------------------
-
 %-------------Achievement Item-------------------
 \newcommand{\myAchievement}[4][ ]{
-	#2\hfill{\color{resumeGreenLight}\textbf{#1}}\\
+	#2\hfill{\color{darkgray}\textbf{#1}}\\
 	\begin{small}{
 			\color{resumeBlueDark}
 			\textbf{#3}
@@ -103,18 +100,14 @@
 %------------------------------------------------
 %-------------Experience Item-------------------
 \newcommand{\myExperience}[5][ ]{
-\textbf{#2}\hfill{\color{resumeGreenLight}\textbf{#1}}\\
+\textbf{#2}\hfill {\color{darkgray}\textbf{#1}}\\
 \begin{small}{
 		\color{resumeBlueDark}
 		\textbf{#3}
 	}
 	\hfill%
-	{
-		\color{gray}\textbf{#4}%
-	}
-\end{small}
-\vspace{2mm}
-\\{#5}
+{\color{gray}\textbf{#4}}\end{small}%
+{#5}%
 }
 %------------------------------------------------
 
@@ -124,7 +117,7 @@
 	\textbf{#2}\\
 	\begin{small}
 		{\color{resumeBlueDark}\textbf{#3}}\hfill%
-		{\color{resumeGreenLight}\textbf{#4}}
+		{\color{gray}\textbf{#4}}
 	\end{small}
 \end{flushleft}
 {#1}
@@ -139,7 +132,7 @@
 		\\\begin{small}%
 			{\color{gray}#3}
 			\hfill
-			{\color{resumeGreenLight}\textbf{#4}}
+			{\color{darkgray}\textbf{#4}}
 		\end{small}
 	\end{flushleft}
 }
@@ -151,23 +144,23 @@
 \exhyphenpenalty=10000
 \noindent
 \begin{minipage}{0.4\textwidth}
-	\begin{LARGE}
+	\begin{huge}
 		{
-			\color{resumeBlueLight}
-			\bfseries{\scalerel*{\includegraphics{photo}}{K} KUNAL RAGHAV}\\
+			\color{resumeBlueDark}
+			\bfseries{\scalerel*{\includegraphics{photo}}{K} KUNAL RAGHAV}\\\\
 		}
-	\end{LARGE}
+	\end{huge}
 \end{minipage}
 \hfill
 \begin{minipage}{0.55\textwidth}
 	\vspace{-5mm}
-	\href{mailto:kraghav123@gmail.com}{\scalerel*{\includegraphics{icons8-gmail-480}}{/} kraghav123@gmail.com} \hspace{2mm} 
-	\textbf{\color{cyan} \fontAwesome mobile-alt}\hspace{2mm}+91 9711090605\\
-	\href{https://kunalraghav.github.io/}{{\textbf{\color{orange}\fontAwesome globe}}  https://kunalraghav.github.io/} \hspace{4mm}
-	\href{https://peerlist.io/kunalraghav}{\scalerel*{\includegraphics{peerlist}}{/}/kunalraghav}\\
-	\href{https://github.com/KunalRaghav}{\scalerel*{\includegraphics{icons8-github-96}}{/}/KunalRaghav} \hspace{4mm}
-	\href{https://www.linkedin.com/in/kunalraghav/}{\scalerel*{\includegraphics{icons8-linkedin-480}}{/}/kunalraghav} \hspace{4mm}
-	\href{https://www.twitter.com/_kunal_raghav_/}{\scalerel*{\includegraphics{icons8-twitter-480}}{/}@\_Kunal\_Raghav\_} \\
+	\href{mailto:kraghav123@gmail.com}{\textbf{\color{cyan} \fontAwesome{at}} kraghav123@gmail.com} \hspace{2mm} 
+	\href{tel:+919711090605}{\textbf{\color{cyan} \fontAwesome mobile-alt} +919711090605}\\
+	\href{https://kunalraghav.github.io/}{{\textbf{\color{cyan}\fontAwesome globe}}  https://kunalraghav.github.io/} \hspace{2mm}
+	\href{https://peerlist.io/kunalraghav}{\textbf{\color{cyan} \fontAwesome{square-parking}}/kunalraghav}\\
+	\href{https://github.com/KunalRaghav}{\textbf{\color{cyan} \fontAwesomeBrands{github}}/KunalRaghav} \hspace{2mm}
+	\href{https://www.linkedin.com/in/kunalraghav/}{\textbf{\color{cyan} \fontAwesomeBrands{linkedin}}/kunalraghav} \hspace{2mm}
+	\href{https://www.twitter.com/_kunal_raghav_/}{\textbf{\color{cyan} \fontAwesomeBrands{twitter}}@\_Kunal\_Raghav\_} \\
 	
 \end{minipage}
 
@@ -189,8 +182,8 @@
 
 	\mySectionTitle{{\fontAwesome star }EXPERIENCE}
 	\myExperience[August 2022]{GoTo Financial/Gojek}{Associate Software Engineer}{Present}
-	{ %
-		\vspace{-5mm}
+	{%
+	\vspace{1mm}
 		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
 			\item{Wrote multiple consumer facing flows for \textbf{Gopay} using \textbf{BLoC} pattern and \textbf{cubit} to drive up engagement and app use in \textbf{Gopay}.}
 			\vspace{-2mm}
@@ -202,37 +195,35 @@
 		\end{list}
 	}
 	\myExperience[August 2021]{ThoughtWorks}{Application Developer}{1 year}
-	{ %
-		\vspace{-8mm}
+	{%
+	\vspace{-2mm}
 		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
-			\item{Drove a major refactor of how the data is handled in the project resulting in boosted developer productivity and satisfaction.}
+			\item{Drove a major refactor of how the data is handled in the project using \textbf{Ruby}, \textbf{.Net Core} and \textbf{React} resulting in boosted developer productivity and satisfaction.}
 			\vspace{-2mm}
-			\item{Wrote a new data pipeline in the project ETL system complete with extensive field validation to drive a new feature in the product.}
+			\item{Wrote a new data pipeline using \textbf{Scala} and \textbf{Jenkins} in the project ETL system complete with extensive field validation to drive a new feature in the product.}
 		\end{list}
-	}
+	}%
 	\myExperience[October 2020]{Oye Rickshaw}{Android Developer Intern}{10 months}
-	{ %
-		\vspace{-8mm}
-		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
-			\item{Wrote unit tests using \textbf{Mockito} and used \textbf{Dagger2} for dependency injection, playing a major role in setting up the testing infrastructure and improved the architecture of the app as a whole.}
+	{%
+	\vspace{-2mm}
+		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}%
+			\item{Wrote unit tests using \textbf{Mockito} and used \textbf{Dagger2} for dependency injection, set up the testing infrastructure and improved the architecture of the app as a whole.}
 			\vspace{-2mm}
-			\item{Reduced RAM requirements and improved performance of the app.}
+			\item{Owned multiple user journeys in their driver app.}
 		\end{list}
 	}
-	\myExperience[June 2020]{Startoon Labs}{Android Developer Intern}{2 month}
-	{ %
-		\vspace{-8mm}
+	\myExperience[June 2020]{Startoon Labs}{Android Developer Intern}{2 months}
+	{%
+	\vspace{-2mm}
 		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
 			\item{Worked on \textbf{Amazon Web Services}: Cognito, S3 Bucket and DynamoDB, to create a serverless mobile app solution for doctors to remotely consult their patients.}
 			\vspace{-2mm}
-			\item{Migrated the codebase to the \textbf{Model View ViewModel} architecture, decreasing complexity and improving code readability.}
-			\vspace{-2mm}
-			\item{Increased responsiveness and performance of the app due to MVVM refactor and RxJava2.}
+			\item{Migrated the codebase to the \textbf{Model View ViewModel} architecture and Rxjava2, decreasing complexity and improving code readability.}
 		\end{list}
 	}
 	\myExperience[June 2019]{GruBox}{Android Developer Intern}{2 months}
-	{ %
-		\vspace{-8mm}
+	{%
+	\vspace{-2mm}
 		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
 			\item{Revamped the android app from ground up to follow principles of \textbf{clean architecture}.}
 			\vspace{-2mm}
@@ -326,17 +317,17 @@
 			\end{list}
 			\vspace{-2mm}
         }
-% 		\myProjectItem{Tardy
-% 		\hfill {\href{https://github.com/KunalRaghav/Tardy/}{\color{black}{\fontAwesomeBrands github} \textsc{source code}}}
-% 		}{
-% 			\vspace{-6mm}
-% 			\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
-% 				\item{A complete attendance tracking system for students to meet the minimum demands set by their college/institution.}
-% 				\vspace{-1mm}
-% 				\item{Clearly shows the amount of classes needed to be taken and a clean timeline for every subject.}
-% 			\end{list}
-% 			\vspace{-2mm}
-% 		}
+		\myProjectItem{Tardy
+		\hfill {\href{https://github.com/KunalRaghav/Tardy/}{\color{black}{\fontAwesomeBrands github} \textsc{source code}}}
+		}{
+			\vspace{-6mm}
+			\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
+				\item{A complete attendance tracking system for students to meet the minimum demands set by their college/institution.}
+				\vspace{-1mm}
+				\item{Clearly shows the amount of classes needed to be taken and a clean timeline for every subject.}
+			\end{list}
+			\vspace{-2mm}
+		}
 		% 		\myProjectItem{Flickr Android \begin{footnotesize}	 [Java, XMLParsing]	\end{footnotesize}}{
 		% 		\vspace{-6mm}
 		% 		\begin{list}{\color{resumeBlueLight}$\bullet$}{\leftmargin 3mm}
@@ -396,17 +387,24 @@
 			            android developers.}
 		\end{list}
 	}
-	\vspace{-6mm}
-	\mySectionTitle{{\fontAwesome trophy }COMPETITIONS \& ACHIEVEMENTS}
+% 	\vspace{-6mm}
+% 	\mySectionTitle{{\fontAwesome trophy }COMPETITIONS \& ACHIEVEMENTS}
 	%		\myAchievement{2nd Runner Up}{HackNSUT}{March 2019}
 	%		\\\vspace{0.1mm}\\
 	%		\myAchievement[TOP 5]{Winner}{Internal Smart India Hackathon 2020}{February 2020}
 	%		\\\vspace{0.1mm}\\
-	\myAchievement[TOP 4]{Finalist}{Smart India Hackathon 2019 Software Edition}{March 2019}
+% 	\myAchievement[TOP 4]{Finalist}{Smart India Hackathon 2019 Software Edition}{March 2019}\\
+% 	\vspace{0.1mm}%
+% 		{%
+% 			{\textsc{special mentions}}:\\\\
+% 			\myExtrasBox{HackNSUT}
+% 			\myExtrasBox{HackDelhi}
+% 			\myExtrasBox{HackIIITD}
+% 		}
 	% 		\myAchievement[TOP 20]{Hack-A-BIT}{BIT Mesra}{October 2018}
 	% 		\\\vspace{0.1mm}\\
 	%		\myAchievement[97\%]{Subject Topper Computer Science}{Mount Carmel School, Dwarka}{CBSE 2017}
-    \\\\
+%     \\\\
 % 	{
 % 	{\textsc{other hackathons}}:\\\\
 % 				\myExtrasBox{Hack-A-Bit 2018}
@@ -444,7 +442,7 @@
 % 	\myKnowsBox{Bash}%
 	\myKnowsBox{Dart}%
 	\myKnowsBox{Flutter}%
-
+    \vspace{10mm}
 \end{minipage}%
 
 \noindent%
@@ -471,13 +469,6 @@
 %		\myAchievement[TOP 20]{Hack-A-BIT}{BIT Mesra}{October 2018}
 %		\\\vspace{0.1mm}\\
 %		\myAchievement[97\%]{Subject Topper Computer Science}{Mount Carmel School, Dwarka}{CBSE 2017}
-%		\\\vspace{0.1mm}\\
-%		{
-%			{\textsc{special mentions}}:\\\\
-%			\myExtrasBox{HackNSUT}
-%			\myExtrasBox{HackDelhi}
-%			\myExtrasBox{HackIIITD}
-%		}
 
 %\end{minipage}
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7.26) (preloaded format=xelatex 2022.7.28)  26 JUL 2023 21:48
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7.26) (preloaded format=xelatex 2022.7.28)  28 JUL 2023 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -453,46 +453,46 @@ Space].
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
 
-Package fontspec Info: Could not resolve font "Font Awesome 5 Free/I" (it
+Package fontspec Info: Could not resolve font "Font Awesome 6 Free/I" (it
 (fontspec)             probably doesn't exist).
 
 
-Package fontspec Info: Font family 'FontAwesome5Free(0)' created for font
-(fontspec)             'Font Awesome 5 Free' with options [].
+Package fontspec Info: Font family 'FontAwesome6Free(0)' created for font
+(fontspec)             'Font Awesome 6 Free' with options [].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Font Awesome 5
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Font Awesome 6
 (fontspec)             Free/OT:script=latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Font Awesome 5
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Font Awesome 6
 (fontspec)             Free/B/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Font
-(fontspec)             Awesome 5 Free/BI/OT:script=latn;language=dflt;"
+(fontspec)             Awesome 6 Free/BI/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-Package fontspec Info: Could not resolve font "Font Awesome 5 Brands/BI" (it
+Package fontspec Info: Could not resolve font "Font Awesome 6 Brands/BI" (it
 (fontspec)             probably doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "Font Awesome 5 Brands/B" (it
+Package fontspec Info: Could not resolve font "Font Awesome 6 Brands/B" (it
 (fontspec)             probably doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "Font Awesome 5 Brands/I" (it
+Package fontspec Info: Could not resolve font "Font Awesome 6 Brands/I" (it
 (fontspec)             probably doesn't exist).
 
 
-Package fontspec Info: Font family 'FontAwesome5Brands(0)' created for font
-(fontspec)             'Font Awesome 5 Brands' with options [].
+Package fontspec Info: Font family 'FontAwesome6Brands(0)' created for font
+(fontspec)             'Font Awesome 6 Brands' with options [].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Font Awesome 5
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Font Awesome 6
 (fontspec)             Brands/OT:script=latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
@@ -772,33 +772,33 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 149.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-49.
+42.
 
 (C:\Program Files\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-Package hyperref Info: Link coloring OFF on input line 149.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+Package hyperref Info: Link coloring OFF on input line 142.
  (resume.out) (resume.out)
 \@outlinefile=\write4
 \openout4 = `resume.out'.
@@ -844,65 +844,65 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 149.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 149.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 149.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 149.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 149.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 149.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 149.
-LaTeX Font Info:    Redeclaring math accent \check on input line 149.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 149.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 149.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 149.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 149.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 142.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 142.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 142.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 142.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 142.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 142.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 142.
+LaTeX Font Info:    Redeclaring math accent \check on input line 142.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 142.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 142.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 142.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 142.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 149.
+(Font)              `operators' in the math version `normal' on input line 142.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Roboto(0)/m/n on input line 149.
+(Font)                  OT1/cmr/m/n --> TU/Roboto(0)/m/n on input line 142.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 149.
+(Font)              `operators' in the math version `bold' on input line 142.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/m/n on input line 149.
+(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/m/n on input line 142.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 149
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 142
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Roboto(0)/m/it on input line 149.
+(Font)                  OT1/cmr/m/it --> TU/Roboto(0)/m/it on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/b/n on input line 149.
+(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/b/n on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 149.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/m/n on input line 149.
+(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/m/n on input line 142.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/b/n on input line 149
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/b/n on input line 142
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Roboto(0)/b/it on input line 149.
+(Font)                  OT1/cmr/bx/it --> TU/Roboto(0)/b/it on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 149.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 142.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/b/n on input line 149.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 157
+(Font)                  OT1/cmtt/m/n --> TU/FiraCode(0)/b/n on input line 142.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 150
 .
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 157
+LaTeX Font Info:    Trying to load font information for U+msb on input line 150
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -912,123 +912,110 @@ File: photo.png Graphic file (type bmp)
 <photo.png>
 File: photo.png Graphic file (type bmp)
 <photo.png>
-File: icons8-gmail-480.png Graphic file (type bmp)
-<icons8-gmail-480.png>
-File: icons8-gmail-480.png Graphic file (type bmp)
-<icons8-gmail-480.png>
-File: peerlist.png Graphic file (type bmp)
-<peerlist.png>
-File: peerlist.png Graphic file (type bmp)
-<peerlist.png>
-File: icons8-github-96.png Graphic file (type bmp)
-<icons8-github-96.png>
-File: icons8-github-96.png Graphic file (type bmp)
-<icons8-github-96.png>
-File: icons8-linkedin-480.png Graphic file (type bmp)
-<icons8-linkedin-480.png>
-File: icons8-linkedin-480.png Graphic file (type bmp)
-<icons8-linkedin-480.png>
-File: icons8-twitter-480.png Graphic file (type bmp)
-<icons8-twitter-480.png>
-File: icons8-twitter-480.png Graphic file (type bmp)
-<icons8-twitter-480.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--171
+Underfull \hbox (badness 10000) in paragraph at lines 150--153
 
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 203--203
+LaTeX Font Warning: Font shape `TU/FontAwesome6Brands(0)/b/n' undefined
+(Font)              using `TU/FontAwesome6Brands(0)/m/n' instead on input line 
+161.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--164
+
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 196--196
 []\TU/Roboto(0)/m/n/10 Wrote multiple consumer facing flows for
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 203--203
+Underfull \hbox (badness 6016) in paragraph at lines 196--196
 []\TU/Roboto(0)/m/n/10 Wrote a small module to handle location
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 203--203
+Underfull \hbox (badness 2547) in paragraph at lines 196--196
 \TU/Roboto(0)/m/n/10 caching and updation for multiple flows in
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 203--203
+Underfull \hbox (badness 1242) in paragraph at lines 196--196
 \TU/Roboto(0)/m/n/10 to unify the \TU/Roboto(0)/b/n/10 PIN \TU/Roboto(0)/m/n/10
  entering experience across
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 212--212
-[]\TU/Roboto(0)/m/n/10 Drove a major refactor of how the data is
+Underfull \hbox (badness 7740) in paragraph at lines 205--205
+[]\TU/Roboto(0)/m/n/10 Drove a major refactor of how the data
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 212--212
-\TU/Roboto(0)/m/n/10 handled in the project resulting in boosted
+Underfull \hbox (badness 2717) in paragraph at lines 205--205
+\TU/Roboto(0)/m/n/10 is handled in the project using \TU/Roboto(0)/b/n/10 Ruby\
+TU/Roboto(0)/m/n/10 , \TU/Roboto(0)/b/n/10 .Net
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 221--221
+Underfull \hbox (badness 1286) in paragraph at lines 205--205
+[]\TU/Roboto(0)/m/n/10 Wrote a new data pipeline using \TU/Roboto(0)/b/n/10 Sca
+la \TU/Roboto(0)/m/n/10 and
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 214--214
 []\TU/Roboto(0)/m/n/10 Wrote unit tests using \TU/Roboto(0)/b/n/10 Mockito \TU/
 Roboto(0)/m/n/10 and used
  []
 
 
-Underfull \hbox (badness 7256) in paragraph at lines 221--221
-\TU/Roboto(0)/b/n/10 Dagger2 \TU/Roboto(0)/m/n/10 for dependency injection, pla
-ying
+Underfull \hbox (badness 6641) in paragraph at lines 214--214
+\TU/Roboto(0)/b/n/10 Dagger2 \TU/Roboto(0)/m/n/10 for dependency injection, set
+ up
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
-\TU/Roboto(0)/m/n/10 a major role in setting up the testing
+Underfull \hbox (badness 2726) in paragraph at lines 214--214
+\TU/Roboto(0)/m/n/10 the testing infrastructure and improved the
  []
 
 
-Underfull \hbox (badness 7379) in paragraph at lines 221--221
-[]\TU/Roboto(0)/m/n/10 Reduced RAM requirements and improved
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 232--232
+Underfull \hbox (badness 1005) in paragraph at lines 223--223
 \TU/Roboto(0)/m/n/10 mobile app solution for doctors to remotely
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 232--232
+Underfull \hbox (badness 2875) in paragraph at lines 223--223
 []\TU/Roboto(0)/m/n/10 Migrated the codebase to the \TU/Roboto(0)/b/n/10 Model 
 View
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 243--243
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+\TU/Roboto(0)/b/n/10 ViewModel \TU/Roboto(0)/m/n/10 architecture and Rxjava2,
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 223--223
+\TU/Roboto(0)/m/n/10 decreasing complexity and improving code
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 234--234
 []\TU/Roboto(0)/m/n/10 Used latest \TU/Roboto(0)/b/n/10 architectural component
 s \TU/Roboto(0)/m/n/10 from
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 243--243
+Underfull \hbox (badness 8189) in paragraph at lines 234--234
 \TU/Roboto(0)/m/n/10 improving UX and increasing the average
  []
 
 
-LaTeX Font Warning: Font shape `TU/FontAwesome5Brands(0)/b/n' undefined
-(Font)              using `TU/FontAwesome5Brands(0)/m/n' instead on input line 
-282.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--419
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--419
-
- []
-
-
-Underfull \hbox (badness 3724) in paragraph at lines 428--447
+Underfull \hbox (badness 3724) in paragraph at lines 426--446
 [][]  []  []  []  []
  []
 
@@ -1042,12 +1029,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23426 strings out of 410653
- 473550 string characters out of 2820528
- 857464 words of memory out of 3000000
- 44083 multiletter control sequences out of 15000+600000
- 474785 words of font info for 96 fonts, out of 8000000 for 9000
+ 23347 strings out of 410653
+ 471560 string characters out of 2820528
+ 855752 words of memory out of 3000000
+ 44004 multiletter control sequences out of 15000+600000
+ 476330 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,7n,85p,523b,787s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,7n,85p,523b,781s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on resume.pdf (1 page).
